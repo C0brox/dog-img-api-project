@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dogs</title>
+    <style>
+        .doggos {
+            display: flex;
+            flex-wrap: wrap-reverse;
+            align-items: flex-end;
+        }
+    </style>
+    <script src="./doggos.js" defer></script>
+</head>
+<body>
+    <h1>Doggos</h1>
+    <hr /><br />
+    <select name="breeds" id="breeds">
+        <option value="hound">Hound</option>
+        <option value="germanshepherd">German shepherd</option>
+        <option value="greyhound">Greyhound</option>
+        <option value="husky">Husky</option>
+        <option value="labrador">Labrador</option>
+        <option value="mastiff">Mastiff</option>
+        <option value="pitbull">Pitbull</option>
+        <option value="pomerian">Pomerian</option>
+        <option value="pug">Pug</option>
+        <option value="rottweiler">Rottweiler</option>
+        <option value="shiba">Shiba</option>
+        <option value="stbernard">St. bernard</option>
+        <option value="terrier">Terrier</option>
+    </select>
+    <button class="add-doggo">Add doggo</button>
+    <div class="doggos">
+    </div>
+
+</body>
+</html>
